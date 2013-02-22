@@ -1,1 +1,1 @@
-This TextMate bundle supports 6502 Assembly (DASM syntax.)
+This TextMate bundle supports 6502 Assembly (KickAssembler syntax.)
