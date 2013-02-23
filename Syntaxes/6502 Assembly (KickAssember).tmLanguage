@@ -42,6 +42,20 @@
 			<string>comment.line.double-dash</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.label</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(!|(^\w))\w+(:|-|\+)</string>
+			<key>name</key>
+			<string>label</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(SET|WORD|BYTE|HEX)\b</string>
 			<key>name</key>
@@ -102,15 +116,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#?\#[0-9a-fA-F]+</string>
+			<string>\#[0-9a-fA-F]+\b</string>
 			<key>name</key>
 			<string>constant.numeric.decimal</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>{[0-9]+}()</string>
+			<string>\#%[0-1]+\b</string>
 			<key>name</key>
-			<string>variable.parameter.macro</string>
+			<string>constant.numeric.binary</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
