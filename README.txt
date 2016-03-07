@@ -1,1 +1,6 @@
-This TextMate bundle supports 6502 Assembly (KickAssembler syntax.)
+## Deprecated
+Use this repo instead:
+
+https://github.com/cbmeeks/6502KickAss-asm
+
+
